@@ -1,0 +1,32 @@
+{
+  "name": "speedyfoodapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.5.2",
+    "@strapi/plugin-users-permissions": "4.5.2",
+    "@strapi/strapi": "^4.5.2",
+    "@types/otp-generator": "^4.0.0",
+    "mysql": "^2.18.1",
+    "otp-generator": "^4.0.0",
+    "twilio": "^3.83.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "e7b24a0b-a47f-4976-95b6-dc2c70db09d8"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

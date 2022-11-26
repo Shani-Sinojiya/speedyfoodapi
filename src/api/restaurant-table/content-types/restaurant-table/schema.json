@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restaurant_tables",
+  "info": {
+    "singularName": "restaurant-table",
+    "pluralName": "restaurant-tables",
+    "displayName": "Restaurant Table",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "QR_Text": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Reserve",
+        "Unreserve",
+        "empty",
+        "paymenting"
+      ]
+    }
+  }
+}
