@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "populer_foods",
+  "info": {
+    "singularName": "populer-food",
+    "pluralName": "populer-foods",
+    "displayName": "Populer Food"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "food": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::food.food"
+    }
+  }
+}

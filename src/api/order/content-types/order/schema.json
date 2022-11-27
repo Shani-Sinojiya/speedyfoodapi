@@ -15,8 +15,7 @@
     "foods": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::food.food",
-      "mappedBy": "order"
+      "target": "api::food.food"
     },
     "restaurant_table": {
       "type": "relation",

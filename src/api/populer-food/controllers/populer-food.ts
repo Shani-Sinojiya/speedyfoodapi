@@ -1,0 +1,7 @@
+/**
+ * populer-food controller
+ */
+
+import { factories } from '@strapi/strapi'
+
+export default factories.createCoreController('api::populer-food.populer-food');

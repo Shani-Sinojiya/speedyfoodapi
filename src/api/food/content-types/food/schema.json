@@ -4,7 +4,8 @@
   "info": {
     "singularName": "food",
     "pluralName": "foods",
-    "displayName": "Food"
+    "displayName": "Food",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,42 +21,27 @@
       "type": "decimal",
       "required": true
     },
-    "code": {
-      "type": "decimal"
+    "carousels": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
-    "category": {
-      "type": "enumeration",
-      "enum": [
-        "Gujarati",
-        "Chinese",
-        "Panjabi",
-        "South Indian",
-        "Other"
-      ],
-      "required": true
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category",
+      "mappedBy": "food"
     },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "Starter",
-        "Main Course",
-        "Dessert"
-      ],
-      "required": true
-    },
-    "image": {
+    "thumbnail": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
       "multiple": false,
       "required": true
-    },
-    "order": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::order.order",
-      "inversedBy": "foods"
     }
   }
 }
