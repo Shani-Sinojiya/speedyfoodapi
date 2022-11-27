@@ -1,19 +1,6 @@
 export default [
   "strapi::errors",
-  {
-    name: "strapi::security",
-    config: {
-      contentSecurityPolicy: {
-        useDefaults: true,
-        directives: {
-          // Enable the download of the Monaco editor
-          // from cdn.jsdelivr.net.
-          "script-src": ["'self'", "cdn.jsdelivr.net", "blob:"],
-          upgradeInsecureRequests: null,
-        },
-      },
-    },
-  },
+  "strapi::security",
   "strapi::cors",
   "strapi::poweredBy",
   "strapi::logger",
