@@ -16,11 +16,11 @@
       "type": "string",
       "required": true
     },
-    "food": {
+    "foods": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::food.food",
-      "inversedBy": "categories"
+      "mappedBy": "categories"
     },
     "image": {
       "type": "media",

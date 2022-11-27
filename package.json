@@ -16,6 +16,7 @@
     "@types/otp-generator": "^4.0.0",
     "mysql": "^2.18.1",
     "otp-generator": "^4.0.0",
+    "strapi-plugin-import-export-entries": "^1.18.0",
     "twilio": "^3.83.3"
   },
   "author": {
