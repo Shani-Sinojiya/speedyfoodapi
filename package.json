@@ -19,7 +19,7 @@
     "twilio": "^3.83.3"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "A SpeedyFood API developer"
   },
   "strapi": {
     "uuid": "e7b24a0b-a47f-4976-95b6-dc2c70db09d8"
