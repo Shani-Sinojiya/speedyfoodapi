@@ -1,0 +1,10 @@
+{
+  "data": {
+    "name": "test",
+    "categories": [1],
+    "Price": 99,
+    "description": "The Classic Burger is a simple, no-frills burger that is perfect for anyone looking for a delicious, all-beef burger. This burger is made with 100% Angus beef and is served on a toasted bun with American cheese, lettuce, tomato, and pickles.",
+    "thumbnail": [32],
+    "carousels": [1, 32]
+  }
+}
