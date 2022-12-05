@@ -20,10 +20,10 @@
     "status": {
       "type": "enumeration",
       "enum": [
-        "Reserve",
-        "Unreserve",
-        "empty",
-        "paymenting"
+        "Reserved",
+        "Unreserved",
+        "Ordered",
+        "Paymenting"
       ]
     }
   }

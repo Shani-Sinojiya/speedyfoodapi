@@ -10,13 +10,12 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.5.2",
-    "@strapi/plugin-users-permissions": "4.5.2",
-    "@strapi/strapi": "^4.5.2",
+    "@strapi/plugin-i18n": "4.5.3",
+    "@strapi/plugin-users-permissions": "4.5.3",
+    "@strapi/strapi": "^4.5.3",
     "@types/otp-generator": "^4.0.0",
     "mysql": "^2.18.1",
     "otp-generator": "^4.0.0",
-    "socket.io": "^4.5.4",
     "twilio": "^3.83.3"
   },
   "author": {
